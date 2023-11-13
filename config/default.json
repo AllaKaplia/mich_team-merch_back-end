@@ -1,0 +1,19 @@
+{
+    "system": {
+        "database": {
+            "host": "localhost",
+            "port": 3306,
+            "database": "evershop",
+            "user": "root",
+            "password": ""
+        },
+        "extensions": [
+            {
+                "name": "myExtension",
+                "resolve": "extensions/myExtension",
+                "enabled": true,
+                "priority": 10
+            }
+        ]
+    }
+  }
